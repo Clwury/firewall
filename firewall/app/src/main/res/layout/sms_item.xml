@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:text="18390216081"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/number"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="25dp"
+        android:text="2018.9.21 9:30"
+        android:textSize="15dp" />
+</RelativeLayout>
